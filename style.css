@@ -1,13 +1,8 @@
-#fumnav{
-  margin: 5px;
-  margin-left:15px;
-}
-
 .fumlogo2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 
   background-image: url(../pictures/fumlogo2.png);
 
@@ -18,5 +13,12 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
+#fumnav{
+    margin: 5px;
+    margin-left:15px;
+}
