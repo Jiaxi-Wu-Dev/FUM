@@ -12,7 +12,7 @@
   background-image: url(../pictures/fumlogo2.png);
 
   /* Set a specific height */
-  height: 500px;
+  height: 1000px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
