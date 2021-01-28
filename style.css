@@ -48,3 +48,13 @@
 #ourpodcasts{
   text-align: center;
 }
+
+#podcasts{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+}
+
+.card{
+  margin-left: 75px;
+}
