@@ -22,3 +22,23 @@
     margin: 5px;
     margin-left:15px;
 }
+
+.fumh1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.aboutfum{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+}
+
+#tinalaugh{
+  width: auto;
+  height: 500px;
+}
+
+#fumparagraph + #tinalaugh {
+  margin: 20px;
+}
