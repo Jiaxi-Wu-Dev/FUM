@@ -57,7 +57,7 @@
 }
 
 #sound-cloud-section{
-  padding-left:40px;
+  padding-left:50px;
 }
 
 
@@ -91,3 +91,10 @@
   transform: translate(-50%, -50%);
 }
 
+#fum-about{
+  background-color: #ff6c80c1
+}
+
+.picture-gallery{
+  padding-top:20px;
+}
