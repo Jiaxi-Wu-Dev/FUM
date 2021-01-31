@@ -64,6 +64,7 @@
 
 #get-email-heading{
   text-align:center;
+  padding-top: 500px;
 }
 
 #get-email{
@@ -74,9 +75,12 @@
 
 
 .container {
+  padding-top: 50px;
   position: relative;
   text-align: center;
-  color: red;
+  color: black;
+  height: 400px;
+  width: 80%;
 }
 
 
@@ -86,3 +90,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
