@@ -72,17 +72,17 @@
   justify-content: center;
 }
 
-.fumlogo2{
- 
 
-  background-image: url(../pictures/fumlogo2.png);
-  height: 700px;
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+}
 
-position: relative;
-opacity: 0.65;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
