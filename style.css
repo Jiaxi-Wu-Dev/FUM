@@ -1,22 +1,4 @@
-.fumlogo2{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 
-  background-image: url(../pictures/fumlogo2.png);
-
-  /* Set a specific height */
-  height: 1000px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-}
 
 #fumnav{
     margin: 5px;
@@ -70,5 +52,37 @@
 
 #gallery-section{
   display:flex;
-  flex-direction: row
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sound-cloud-section{
+  padding-left:40px;
+}
+
+
+
+#get-email-heading{
+  text-align:center;
+}
+
+#get-email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fumlogo2{
+ 
+
+  background-image: url(../pictures/fumlogo2.png);
+  height: 700px;
+
+position: relative;
+opacity: 0.65;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
