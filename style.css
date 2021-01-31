@@ -67,3 +67,8 @@
 #gallery1{
   size: 50%;
 }
+
+#gallery-section{
+  display:flex;
+  flex-direction: row
+}
