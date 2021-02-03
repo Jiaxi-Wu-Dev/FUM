@@ -14,13 +14,15 @@
   display: flex;
   flex-direction: row ;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-top:30px;
+  padding-bottom: 30px;
 }
 
 #tinalaugh{
   width: auto;
-  height: 500px;
+  height: 450px;
 }
 
 #fumparagraph{
@@ -37,9 +39,6 @@
   justify-content: center;
 }
 
-.card{
-  margin-left: 75px;
-}
 
 #gallery{
   text-align: center;
@@ -92,7 +91,7 @@
 }
 
 #fum-about{
-  background-color: #ff6c80c1
+  background-color: #6c80c1
 }
 
 .picture-gallery{
