@@ -39,6 +39,9 @@
   justify-content: center;
 }
 
+.card{
+  margin-left: 75px;
+}
 
 #gallery{
   text-align: center;
