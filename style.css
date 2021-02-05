@@ -1,0 +1,102 @@
+
+
+#fumnav{
+    margin: 5px;
+    margin-left:15px;
+}
+
+.fumh1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.aboutfum{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-top:30px;
+  padding-bottom: 30px;
+}
+
+#tinalaugh{
+  width: auto;
+  height: 450px;
+}
+
+#fumparagraph{
+  padding-right: 150px;
+}
+
+#ourpodcasts{
+  text-align: center;
+}
+
+#podcasts{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+}
+
+.card{
+  margin-left: 75px;
+}
+
+#gallery{
+  text-align: center;
+  margin: 30px;
+}
+
+#gallery1{
+  size: 50%;
+}
+
+#gallery-section{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sound-cloud-section{
+  padding-left:50px;
+}
+
+
+
+#get-email-heading{
+  text-align:center;
+  padding-top: 500px;
+}
+
+#get-email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.container {
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 400px;
+  width: 80%;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fum-about{
+  background-color: #6c80c1
+}
+
+.picture-gallery{
+  padding-top:20px;
+}

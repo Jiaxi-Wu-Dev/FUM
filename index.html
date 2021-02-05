@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>FUM Network</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="fumnav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">FUM Network</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -21,20 +21,20 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-ex panded="false">
                             Network
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">About</a></li>
                             <li><a class="dropdown-item" href="#">Business Model</a></li>
                             <li><a class="dropdown-item" href="#">FUM Home Studio</a></li>
-                            y<li><a class="dropdown-item" href="#">FUM Blog</a></li>
+                            <li><a class="dropdown-item" href="#">FUM Blog</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Shows
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -44,20 +44,135 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Support
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Patreon</a></li>
-                            <li><a class="dropdown-item" href="#">Merch</a></li>
-                            <li><a class="dropdown-item" href="#">Advertise With Us</a></li>
-                        </ul>
+
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <div id="fum-about">
+        <h1 class="fumh1">Friendship, Unity, Magic, the core of F.U.M.</h1>
+        <div class="aboutfum">
+
+            <div>
+
+                <p id="fumparagraph">At F.U.M. we are dedicated to producing quality podcasts for a wide range of
+                    audiences. Right now our current podcasts include Conversations Between Cousins, Oh, Fuck!, and Too
+                    Many Cooks. We are always looking to work with talented people and focus on creating podcasts. FUM
+                    is a podcast network that looks to carve a niche for itself with the podcasts we make. If you are
+                    looking to bring a podcast idea to life consider reaching out to us</p>
+            </div>
+            <div>
+
+                <img id="tinalaugh" src="..\pictures\tinalaugh.jpg" alt="Girl in a jacket">
+            </div>
+
+
+
+        </div>
+    </div>
+    <div>
+        <h1 id="ourpodcasts">Our Podcasts</h1>
+        <div id="podcasts">
+
+            <div class="card" style="width: 18rem;">
+                <img src="..\pictures\conversations.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Converstations between Cousins</h5>
+                    <p class="card-text">Most Likely you have a cousin. Are you close with them? We here at F.U.M
+                        believe the cousin market is underserved and would like to talk about cousin relationships along
+                        with my cousin, Cousin Vinny</p>
+                    <a href="https://open.spotify.com/show/7xeRmFR38wKk9MnQRN9bjs" class="btn btn-primary"
+                        target="_blank">Check it out on Spotify</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..\pictures\ohfuck.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oh, Fuck!@</h5>
+                    <p class="card-text">Bad things happen. This podcast is to share my experiences that made me go Oh,
+                        Fuck! and hopefully lets those who are also going through a hard time know that they are not
+                        going through it alone, that a lot of our circumstances are due to shitty politics and poor
+                        economic choices on a macro level </p>
+                    <a href="https://open.spotify.com/show/1xX1iO5nspiNLtIRcwO13X" class="btn btn-primary"
+                        target="_blank">Check it out on Spotify</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..\pictures\toomanycooks.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Too Many Cooks in the Kitchen</h5>
+                    <p class="card-text">Just whipping up some good hearty meals that we invite you to join</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 id='gallery'> Gallery </h1>
+    <div class="container-xl" id="gallery-section">
+        <div>
+
+            <ul class="list-group list-group-horizontal-sm">
+                <img src="..\pictures\tinalaugh1.jpg" class="card-img-top" alt="...">
+                <img src="..\pictures\conversations1.jpg" class="card-img-top" alt="...">
+                <img src="..\pictures\vinny.jpg" class="card-img-top" alt="...">
+            </ul>
+            <ul class="list-group list-group-horizontal-sm">
+                <img src="..\pictures\andy.jpg" class="card-img-top" alt="...">
+                <img src="..\pictures\toomanycooks1.jpg" class="card-img-top" alt="...">
+                <img src="..\pictures\kitchen.jpg" class="card-img-top" alt="...">
+            </ul>
+            <ul class="list-group list-group-horizontal-sm">
+                <img src="..\pictures\hannah.jpg" class="card-img-top" alt="...">
+                <img src="..\pictures\ohfuck.jpg" class="card-img-top" id="gallery1" alt="...">
+                <img src="..\pictures\kitchen.jpg" class="card-img-top" alt="...">
+            </ul>
+        </div>
+        <div id="sound-cloud-section">
+
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/708689488&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+                class="picture-gallery"><a href="https://soundcloud.com/user-291500455-333212307" title="FUM Network"
+                    target="_blank" style="color: #cccccc; text-decoration: none;">FUM Network</a> · <a
+                    href="https://soundcloud.com/user-291500455-333212307/cbceptwofinal" title="CBCEpTwoFinal"
+                    target="_blank" style="color: #cccccc; text-decoration: none;">CBCEpTwoFinal</a> </div>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/670210070&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+                class="picture-gallery"><a href="https://soundcloud.com/user-291500455-333212307" title="FUM Network"
+                    target="_blank" style="color: #cccccc; text-decoration: none;">FUM Network</a> · <a
+                    href="https://soundcloud.com/user-291500455-333212307/conversations-between-cousins-episode-one"
+                    title="Conversations Between Cousins Episode One" target="_blank"
+                    style="color: #cccccc; text-decoration: none;">Conversations Between Cousins Episode One</a></div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <img src="..\pictures\fumlogo2.png" alt="Snow" style="width:100%;">
+
+
+        <div class="centered">
+            <div id="get-email-heading">
+                <h1>We wanna get to know each other!</h1>
+                <div id="get-email">
+
+                    <div class="col-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
